@@ -8,7 +8,7 @@ import { config } from '@/config/reques'
 import { ResultEnum, RequestMethodEnum } from '@/enums/request'
 
 export class AxiosService {
-	private axiosInstance: AxiosInstance
+	private readonly axiosInstance: AxiosInstance
 	private readonly options: CreateAxiosOptions
 
 	constructor(options: CreateAxiosOptions) {

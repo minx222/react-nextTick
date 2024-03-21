@@ -4,7 +4,8 @@ import { Provider } from 'react-redux'
 
 import AppRouter from '@/routers'
 import stores from '@/stores'
-const App: React.FC = () => (
+
+const App = () => (
 	<ConfigProvider locale={zhCN}>
 		<Provider store={stores}>
 			<AppRouter />

@@ -1,3 +1,5 @@
-const IndexComponents: React.FC = () => <div>Index</div>
+import type { FC } from "react"
+
+const IndexComponents: FC = () => <div>Index</div>
 
 export default IndexComponents

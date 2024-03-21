@@ -1,15 +1,19 @@
 * {
 	@apply p-0 m-0;
+	box-sizing: border-box;
 }
 
 html,
 body {
-	@apply flex items-center justify-center w-full h-full;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@apply w-full h-full;
 }
 
 #root {
 	@apply w-full h-full min-h-screen;
+}
+
+@keyframes linearGradientMove {
+	to {
+		background-position: 10px 0, -10px 100%,0 -10px, 100% 10px
+	}
 }
